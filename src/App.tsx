@@ -45,7 +45,7 @@ function App() {
       imageUrl: 'https://images.pexels.com/photos/8919564/pexels-photo-8919564.jpeg?auto=compress&cs=tinysrgb&w=800',
       architectureUrl: '/Union AI banking service backend (RChelpU).png',
       githubUrl: '#',
-      liveUrl: '#',
+      liveUrl: 'https://justinfan591.github.io/ai_banking_agent/',
       category: 'ai'
     },
     {
