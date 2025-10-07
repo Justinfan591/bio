@@ -54,6 +54,7 @@ function App() {
       description: 'Drove AI-enabled transformation initiatives using Copilot and Azure AI. Applied agentic AI workflows for customer-facing services and internal operations.',
       technologies: ['Azure AI', 'Microsoft Copilot', 'Agentic AI', 'Enterprise Integration'],
       imageUrl: 'https://images.pexels.com/photos/7672252/pexels-photo-7672252.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
       category: 'ai'
     },
@@ -63,6 +64,7 @@ function App() {
       description: 'Co-founded agentic AI platform for personalized interview prep. Accepted into Microsoft for Startups. Built persona-driven agents with voice-to-text pipelines.',
       technologies: ['Grog AI', 'Azure', 'Speech-to-Text', 'Agentic Workflows', 'Python'],
       imageUrl: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
       liveUrl: '#',
       category: 'ai'
@@ -73,6 +75,7 @@ function App() {
       description: 'CSC258 course project in MIPS Assembly. Implemented gravity, collision detection, capsule preview, score counters, background music, and sound effects.',
       technologies: ['MIPS Assembly', 'Saturn Environment', 'Low-level Programming'],
       imageUrl: 'https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
       category: 'systems'
     },
@@ -82,6 +85,7 @@ function App() {
       description: 'NewHacks 2024 winning project for GenAI in Telecom (TELUS challenge). Real-time scam-call detection using AI with scalable pricing model.',
       technologies: ['GenAI', 'Real-time Detection', 'Python', 'TELUS API'],
       imageUrl: 'https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
       category: 'ai'
     }
