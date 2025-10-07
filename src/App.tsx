@@ -20,54 +20,78 @@ function App() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce application with real-time inventory management, payment processing, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      imageUrl: 'https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
-      architectureUrl: 'https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'ERP Manufacturing Project',
+      description: 'Modernized manufacturing operations with cloud-based ERP system. Built planner proposals backend with heuristic algorithms, React Query UI with SVG FlowCanvas for visual workflows.',
+      technologies: ['React Query', 'SVG', 'Node.js', 'PostgreSQL', 'Cloud ERP'],
+      imageUrl: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: '/AI banking agent workflow.png',
       githubUrl: '#',
-      liveUrl: '#',
       category: 'web'
     },
     {
       id: 2,
-      title: 'Machine Learning Model',
-      description: 'Predictive analytics system using neural networks to forecast time-series data with 95% accuracy.',
-      technologies: ['Python', 'TensorFlow', 'Pandas', 'Scikit-learn'],
-      imageUrl: 'https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800',
-      architectureUrl: 'https://images.pexels.com/photos/669622/pexels-photo-669622.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'FLEX Basketball Training App',
+      description: 'Mobile app helping athletes record and track basketball shooting sessions with timestamps and video cuts. Doubled focus-group engagement using Agile methodology.',
+      technologies: ['Expo Go', 'React Native', 'TestFlight', 'Video Processing'],
+      imageUrl: 'https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
-      category: 'ml'
+      category: 'mobile'
     },
     {
       id: 3,
-      title: 'Distributed System',
-      description: 'Microservices architecture with load balancing, service discovery, and fault tolerance mechanisms.',
-      technologies: ['Go', 'Docker', 'Kubernetes', 'Redis'],
-      imageUrl: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=800',
-      architectureUrl: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Credit Union AI Customer Service',
+      description: 'AI-powered customer service interface for Rotman Credit Union. Integrated Microsoft Copilot bot with Direct Line authentication and secure iframe embedding.',
+      technologies: ['React', 'Microsoft Copilot', 'Direct Line API', 'Azure AI'],
+      imageUrl: 'https://images.pexels.com/photos/8919564/pexels-photo-8919564.jpeg?auto=compress&cs=tinysrgb&w=800',
+      githubUrl: '#',
+      liveUrl: '#',
+      category: 'ai'
+    },
+    {
+      id: 4,
+      title: 'Microsoft 2025 AI Transformation',
+      description: 'Drove AI-enabled transformation initiatives using Copilot and Azure AI. Applied agentic AI workflows for customer-facing services and internal operations.',
+      technologies: ['Azure AI', 'Microsoft Copilot', 'Agentic AI', 'Enterprise Integration'],
+      imageUrl: 'https://images.pexels.com/photos/7672252/pexels-photo-7672252.jpeg?auto=compress&cs=tinysrgb&w=800',
+      githubUrl: '#',
+      category: 'ai'
+    },
+    {
+      id: 5,
+      title: 'Synvio AI',
+      description: 'Co-founded agentic AI platform for personalized interview prep. Accepted into Microsoft for Startups. Built persona-driven agents with voice-to-text pipelines.',
+      technologies: ['Grog AI', 'Azure', 'Speech-to-Text', 'Agentic Workflows', 'Python'],
+      imageUrl: 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800',
+      githubUrl: '#',
+      liveUrl: '#',
+      category: 'ai'
+    },
+    {
+      id: 6,
+      title: 'Dr. Mario Game (Assembly)',
+      description: 'CSC258 course project in MIPS Assembly. Implemented gravity, collision detection, capsule preview, score counters, background music, and sound effects.',
+      technologies: ['MIPS Assembly', 'Saturn Environment', 'Low-level Programming'],
+      imageUrl: 'https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
       category: 'systems'
     },
     {
-      id: 4,
-      title: 'Mobile App',
-      description: 'Cross-platform mobile application for task management with offline-first architecture and cloud sync.',
-      technologies: ['React Native', 'TypeScript', 'Firebase', 'Redux'],
-      imageUrl: 'https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&cs=tinysrgb&w=800',
-      architectureUrl: 'https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=800',
+      id: 7,
+      title: 'CallGuard',
+      description: 'NewHacks 2024 winning project for GenAI in Telecom (TELUS challenge). Real-time scam-call detection using AI with scalable pricing model.',
+      technologies: ['GenAI', 'Real-time Detection', 'Python', 'TELUS API'],
+      imageUrl: 'https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=800',
       githubUrl: '#',
-      liveUrl: '#',
-      category: 'mobile'
+      category: 'ai'
     }
   ];
 
   const categories = [
     { id: 'all', label: 'All Projects', icon: Code2 },
     { id: 'web', label: 'Web', icon: Globe },
-    { id: 'ml', label: 'Machine Learning', icon: Database },
-    { id: 'systems', label: 'Systems', icon: Terminal },
-    { id: 'mobile', label: 'Mobile', icon: Code2 }
+    { id: 'ai', label: 'AI & ML', icon: Database },
+    { id: 'mobile', label: 'Mobile', icon: Code2 },
+    { id: 'systems', label: 'Systems', icon: Terminal }
   ];
 
   const filteredProjects = selectedCategory === 'all'
