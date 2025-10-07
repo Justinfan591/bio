@@ -39,17 +39,18 @@ function App() {
     },
     {
       id: 3,
-      title: 'Credit Union AI Customer Service',
+      title: 'RChelpU - Credit Union AI Service',
       description: 'AI-powered customer service interface for Rotman Credit Union. Integrated Microsoft Copilot bot with Direct Line authentication and secure iframe embedding.',
       technologies: ['React', 'Microsoft Copilot', 'Direct Line API', 'Azure AI'],
       imageUrl: 'https://images.pexels.com/photos/8919564/pexels-photo-8919564.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: '/Union AI banking service backend (RChelpU).png',
       githubUrl: '#',
       liveUrl: '#',
       category: 'ai'
     },
     {
       id: 4,
-      title: 'Microsoft 2025 AI Transformation',
+      title: 'Microsoft 2025 AI Transformation - 1st Place',
       description: 'Drove AI-enabled transformation initiatives using Copilot and Azure AI. Applied agentic AI workflows for customer-facing services and internal operations.',
       technologies: ['Azure AI', 'Microsoft Copilot', 'Agentic AI', 'Enterprise Integration'],
       imageUrl: 'https://images.pexels.com/photos/7672252/pexels-photo-7672252.jpeg?auto=compress&cs=tinysrgb&w=800',
