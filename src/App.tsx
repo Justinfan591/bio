@@ -233,13 +233,15 @@ function App() {
                         width: `${sliderPositions[project.id] || 50}%`
                       }}
                     >
-                      <div className="relative w-full h-full" style={{ width: project.architectureUrl ? '200%' : '100%' }}>
-                        <img
-                          src={project.imageUrl}
-                          alt={project.title}
-                          className="absolute inset-0 w-full h-full object-contain bg-white"
-                        />
-                      </div>
+                      <img
+                        src={project.imageUrl}
+                        alt={project.title}
+                        className="absolute inset-0 object-contain bg-white"
+                        style={{
+                          width: project.architectureUrl ? '200%' : '100%',
+                          height: '100%'
+                        }}
+                      />
                       {project.architectureUrl && (
                         <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-medium text-slate-700 pointer-events-none whitespace-nowrap">
                           Project Preview
