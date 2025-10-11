@@ -213,7 +213,7 @@ function App() {
                         <img
                           src={project.architectureUrl}
                           alt={`${project.title} Architecture`}
-                          className="absolute inset-0 w-full h-full object-cover bg-white"
+                          className="absolute inset-0 w-full h-full object-contain bg-white"
                         />
                         <div
                           className="absolute top-0 left-0 bottom-0 bg-slate-800/10"
@@ -233,15 +233,13 @@ function App() {
                         width: `${sliderPositions[project.id] || 50}%`
                       }}
                     >
-                      <img
-                        src={project.imageUrl}
-                        alt={project.title}
-                        className="absolute inset-0 h-full object-cover"
-                        style={{
-                          width: project.architectureUrl ? '200%' : '100%',
-                          objectFit: 'cover'
-                        }}
-                      />
+                      <div className="relative w-full h-full" style={{ width: project.architectureUrl ? '200%' : '100%' }}>
+                        <img
+                          src={project.imageUrl}
+                          alt={project.title}
+                          className="absolute inset-0 w-full h-full object-contain bg-white"
+                        />
+                      </div>
                       {project.architectureUrl && (
                         <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-medium text-slate-700 pointer-events-none whitespace-nowrap">
                           Project Preview
