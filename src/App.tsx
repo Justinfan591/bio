@@ -23,7 +23,7 @@ function App() {
       title: 'ERP Manufacturing Project',
       description: 'Modernized manufacturing operations with cloud-based ERP system. Built planner proposals backend with heuristic algorithms, React Query UI with SVG FlowCanvas for visual workflows.',
       technologies: ['React Query', 'SVG', 'Node.js', 'PostgreSQL', 'Cloud ERP'],
-      imageUrl: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
+      imageUrl: '/erp-frontend.png',
       architectureUrl: '/AI banking agent workflow.png',
       githubUrl: '#',
       category: 'web'
@@ -33,7 +33,7 @@ function App() {
       title: 'FLEX Basketball Training App',
       description: 'Mobile app helping athletes record and track basketball shooting sessions with timestamps and video cuts. Doubled focus-group engagement using Agile methodology.',
       technologies: ['Expo Go', 'React Native', 'TestFlight', 'Video Processing'],
-      imageUrl: 'https://images.pexels.com/photos/1752757/pexels-photo-1752757.jpeg?auto=compress&cs=tinysrgb&w=800',
+      imageUrl: '/flex-app.png',
       githubUrl: '#',
       category: 'mobile'
     },
@@ -42,7 +42,7 @@ function App() {
       title: 'RChelpU - Credit Union AI Service',
       description: 'AI-powered customer service interface for Rotman Credit Union. Integrated Microsoft Copilot bot with Direct Line authentication and secure iframe embedding.',
       technologies: ['React', 'Microsoft Copilot', 'Direct Line API', 'Azure AI'],
-      imageUrl: 'https://images.pexels.com/photos/8919564/pexels-photo-8919564.jpeg?auto=compress&cs=tinysrgb&w=800',
+      imageUrl: '/rcu-frontend.png',
       architectureUrl: '/Union AI banking service backend (RChelpU).png',
       githubUrl: '#',
       liveUrl: 'https://justinfan591.github.io/ai_banking_agent/',
@@ -54,7 +54,7 @@ function App() {
       description: 'Co-founded agentic AI platform for personalized interview prep. Accepted into Microsoft for Startups. Built persona-driven agents with voice-to-text pipelines.',
       technologies: ['Grog AI', 'Azure', 'Speech-to-Text', 'Agentic Workflows', 'Python'],
       imageUrl: '/SynvioAI-frontend.png',
-      architectureUrl: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800',
+      architectureUrl: '/synvio-backend.png',
       githubUrl: '#',
       liveUrl: 'https://synvio.ai/',
       category: 'ai'
@@ -64,8 +64,8 @@ function App() {
       title: 'Dr. Mario Game (Assembly)',
       description: 'CSC258 course project in MIPS Assembly. Implemented gravity, collision detection, capsule preview, score counters, background music, and sound effects.',
       technologies: ['MIPS Assembly', 'Saturn Environment', 'Low-level Programming'],
-      imageUrl: 'https://images.pexels.com/photos/371924/pexels-photo-371924.jpeg?auto=compress&cs=tinysrgb&w=800',
-      architectureUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=800',
+      imageUrl: '/dr-mario.png',
+      architectureUrl: '/dr-mario-architecture.png',
       githubUrl: '#',
       category: 'systems'
     },
@@ -74,8 +74,8 @@ function App() {
       title: 'CallGuard',
       description: 'NewHacks 2024 winning project for GenAI in Telecom (TELUS challenge). Real-time scam-call detection using AI with scalable pricing model.',
       technologies: ['GenAI', 'Real-time Detection', 'Python', 'TELUS API'],
-      imageUrl: 'https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=800',
-      architectureUrl: 'https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800',
+      imageUrl: '/callguard-frontend.png',
+      architectureUrl: '/callguard-architecture.png',
       githubUrl: '#',
       category: 'ai'
     }
