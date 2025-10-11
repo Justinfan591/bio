@@ -209,23 +209,21 @@ function App() {
                 >
                   <div className="relative w-full h-full">
                     {project.architectureUrl && (
-                      <>
+                      <div
+                        className="absolute inset-0 overflow-hidden"
+                        style={{
+                          clipPath: `inset(0 0 0 ${sliderPositions[project.id] || 50}%)`
+                        }}
+                      >
                         <img
                           src={project.architectureUrl}
                           alt={`${project.title} Architecture`}
                           className="absolute inset-0 w-full h-full object-contain bg-white"
                         />
-                        <div
-                          className="absolute top-0 left-0 bottom-0 bg-slate-800/10"
-                          style={{
-                            width: `${100 - (sliderPositions[project.id] || 50)}%`,
-                            pointerEvents: 'none'
-                          }}
-                        />
                         <div className="absolute top-4 right-4 bg-slate-800/80 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-medium text-white pointer-events-none">
                           Backend Architecture
                         </div>
-                      </>
+                      </div>
                     )}
                     <div
                       className="absolute inset-0 overflow-hidden"
