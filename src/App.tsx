@@ -213,7 +213,7 @@ function App() {
                         <img
                           src={project.architectureUrl}
                           alt={`${project.title} Architecture`}
-                          className="absolute inset-0 w-full h-full object-contain bg-white"
+                          className="absolute inset-0 w-full h-full object-cover bg-white"
                         />
                         <div
                           className="absolute top-0 left-0 bottom-0 bg-slate-800/10"
@@ -236,9 +236,10 @@ function App() {
                       <img
                         src={project.imageUrl}
                         alt={project.title}
-                        className="absolute inset-0 w-full h-full object-cover"
+                        className="absolute inset-0 h-full object-cover"
                         style={{
-                          width: project.architectureUrl ? '200%' : '100%'
+                          width: project.architectureUrl ? '200%' : '100%',
+                          objectFit: 'cover'
                         }}
                       />
                       {project.architectureUrl && (
