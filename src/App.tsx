@@ -228,19 +228,15 @@ function App() {
                       </>
                     )}
                     <div
-                      className="absolute inset-y-0 left-0 overflow-hidden"
+                      className="absolute inset-0 overflow-hidden"
                       style={{
-                        width: `${sliderPositions[project.id] || 50}%`
+                        clipPath: `inset(0 ${100 - (sliderPositions[project.id] || 50)}% 0 0)`
                       }}
                     >
                       <img
                         src={project.imageUrl}
                         alt={project.title}
-                        className="absolute inset-0 object-contain bg-white"
-                        style={{
-                          width: project.architectureUrl ? '200%' : '100%',
-                          height: '100%'
-                        }}
+                        className="absolute inset-0 w-full h-full object-contain bg-white"
                       />
                       {project.architectureUrl && (
                         <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-medium text-slate-700 pointer-events-none whitespace-nowrap">
