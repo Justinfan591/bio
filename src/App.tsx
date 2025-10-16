@@ -111,7 +111,7 @@ function App() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
                 <img
-                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop"
+                  src="/headshot.jpg"
                   alt="Profile"
                   className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-2xl"
                 />
