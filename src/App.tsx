@@ -107,6 +107,16 @@ function App() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center space-y-8">
+            <div className="inline-block">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full blur-2xl opacity-20 animate-pulse"></div>
+                <img
+                  src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop"
+                  alt="Profile"
+                  className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-2xl"
+                />
+              </div>
+            </div>
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
                 <span className="text-white text-5xl sm:text-6xl lg:text-7xl block mb-4">Justin Fan</span>
