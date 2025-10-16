@@ -83,9 +83,7 @@ function App() {
 
   const categories = [
     { id: 'all', label: 'All Projects', icon: Code2 },
-    { id: 'web', label: 'Web', icon: Globe },
     { id: 'ai', label: 'AI & ML', icon: Database },
-    { id: 'mobile', label: 'Mobile', icon: Code2 },
     { id: 'systems', label: 'Systems', icon: Terminal }
   ];
 
