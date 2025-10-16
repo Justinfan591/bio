@@ -101,7 +101,7 @@ function App() {
           <img
             src="/Background.jpg"
             alt="Background"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
           <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-cyan-900/60 to-teal-900/70"></div>
         </div>
