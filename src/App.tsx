@@ -97,7 +97,14 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100">
       {/* Hero Section */}
       <header className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-cyan-50 to-teal-50 opacity-70"></div>
+        <div className="absolute inset-0">
+          <img
+            src="/Background.jpg"
+            alt="Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-900/70 via-cyan-900/60 to-teal-900/70"></div>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
           <div className="text-center space-y-8">
             <div className="inline-block">
@@ -112,17 +119,17 @@ function App() {
             </div>
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600">
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400">
                   Computer Science
                 </span>
-                <span className="text-slate-900"> + </span>
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600">
+                <span className="text-white"> + </span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-500">
                   Commerce
                 </span>
                 <br />
-                <span className="text-slate-900">Student at UofT</span>
+                <span className="text-white">Student at UofT</span>
               </h1>
-              <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed">
+              <p className="max-w-2xl mx-auto text-lg text-gray-100 leading-relaxed">
                 Bridging business and technology to build impactful solutions that drive innovation
                 and deliver real-world value.
               </p>
@@ -144,13 +151,13 @@ function App() {
               </a>
             </div>
             <div className="flex gap-6 justify-center pt-4">
-              <a href="https://github.com/Justinfan591" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">
+              <a href="https://github.com/Justinfan591" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://www.linkedin.com/in/justinfan951/" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">
+              <a href="https://www.linkedin.com/in/justinfan951/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:justin.fan@mail.utoronto.ca" className="text-slate-600 hover:text-blue-600 transition-colors">
+              <a href="mailto:justin.fan@mail.utoronto.ca" className="text-gray-300 hover:text-cyan-400 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
