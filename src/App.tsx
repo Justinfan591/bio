@@ -111,7 +111,7 @@ function App() {
               </div>
             </div>
             <div className="space-y-4">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600">
                   Computer Science
                 </span>
@@ -122,7 +122,7 @@ function App() {
                 <br />
                 <span className="text-slate-900">Student at UofT</span>
               </h1>
-              <p className="max-w-2xl mx-auto text-xl text-slate-600 leading-relaxed">
+              <p className="max-w-2xl mx-auto text-lg text-slate-600 leading-relaxed">
                 Bridging business and technology to build impactful solutions that drive innovation
                 and deliver real-world value.
               </p>
