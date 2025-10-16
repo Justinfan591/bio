@@ -136,7 +136,7 @@ function App() {
                 <ExternalLink size={18} />
               </a>
               <a
-                href="mailto:justinfan951@gmail.com"
+                href="mailto:justin.fan@mail.utoronto.ca"
                 className="inline-flex items-center gap-2 bg-white text-slate-700 px-8 py-4 rounded-xl font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 border-2 border-slate-200 hover:border-blue-300"
               >
                 <Mail size={18} />
@@ -144,13 +144,13 @@ function App() {
               </a>
             </div>
             <div className="flex gap-6 justify-center pt-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">
+              <a href="https://github.com/Justinfan591" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">
                 <Github size={24} />
               </a>
               <a href="https://www.linkedin.com/in/justinfan951/" target="_blank" rel="noopener noreferrer" className="text-slate-600 hover:text-blue-600 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:justinfan951@gmail.com" className="text-slate-600 hover:text-blue-600 transition-colors">
+              <a href="mailto:justin.fan@mail.utoronto.ca" className="text-slate-600 hover:text-blue-600 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
