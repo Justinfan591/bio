@@ -26,7 +26,7 @@ function App() {
       imageUrl: '/erp-frontend.png',
       architectureUrl: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1200',
       githubUrl: '#',
-      category: 'web'
+      category: 'ai'
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ function App() {
       technologies: ['Expo Go', 'React Native', 'TestFlight', 'Video Processing'],
       imageUrl: '/flex-app.png',
       githubUrl: '#',
-      category: 'mobile'
+      category: 'ai'
     },
     {
       id: 3,
