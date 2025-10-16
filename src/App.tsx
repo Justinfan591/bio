@@ -115,12 +115,16 @@ function App() {
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-cyan-600 to-teal-600">
                   Computer Science
                 </span>
+                <span className="text-slate-900"> + </span>
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600">
+                  Commerce
+                </span>
                 <br />
-                <span className="text-slate-900">Project Portfolio</span>
+                <span className="text-slate-900">Student at UofT</span>
               </h1>
               <p className="max-w-2xl mx-auto text-xl text-slate-600 leading-relaxed">
-                Full-stack developer and CS student passionate about building scalable systems,
-                machine learning, and elegant user experiences.
+                Bridging business and technology to build impactful solutions that drive innovation
+                and deliver real-world value.
               </p>
             </div>
             <div className="flex flex-wrap gap-4 justify-center">
