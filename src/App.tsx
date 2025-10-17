@@ -32,7 +32,7 @@ function App() {
       id: 2,
       title: 'FLEX Basketball Training App',
       description: 'Mobile app helping athletes record and track basketball shooting sessions with timestamps and video cuts. Doubled focus-group engagement using Agile methodology.',
-      technologies: ['Expo Go', 'React Native', 'TestFlight', 'Video Processing'],
+      technologies: ['Expo Go', 'React Native', 'TestFlight', 'Video Processing', 'GTM'],
       imageUrl: '/flex-app.png',
       githubUrl: '#',
       category: 'ai'
@@ -52,7 +52,7 @@ function App() {
       id: 5,
       title: 'Synvio AI',
       description: 'Co-founded agentic AI platform for personalized interview prep. Accepted into Microsoft for Startups. Built persona-driven agents with voice-to-text pipelines.',
-      technologies: ['Grog AI', 'Azure', 'Speech-to-Text', 'Agentic Workflows', 'Python', 'LangChain'],
+      technologies: ['Grog AI', 'Azure', 'Speech-to-Text', 'Agentic Workflows', 'Python', 'LangChain', 'GTM'],
       imageUrl: '/SynvioAI-frontend.png',
       architectureUrl: '/synvio-backend.png',
       githubUrl: '#',
