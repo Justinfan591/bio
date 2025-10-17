@@ -237,7 +237,7 @@ function App() {
                     <div
                       className="absolute inset-0 overflow-hidden"
                       style={{
-                        clipPath: `inset(0 ${100 - (sliderPositions[project.id] || 50)}% 0 0)`
+                        clipPath: project.architectureUrl ? `inset(0 ${100 - (sliderPositions[project.id] || 50)}% 0 0)` : 'none'
                       }}
                     >
                       <img
