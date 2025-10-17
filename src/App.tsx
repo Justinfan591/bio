@@ -201,12 +201,78 @@ function App() {
                 key={project.id}
                 className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-slate-100 hover:border-blue-200 transform hover:-translate-y-1"
               >
-                <div className="relative h-64 overflow-hidden bg-slate-100">
-                  <img
-                    src={project.imageUrl}
-                    alt={project.title}
-                    className="w-full h-full object-contain bg-white"
-                  />
+                <div
+                  className="relative h-64 overflow-hidden bg-slate-100 cursor-ew-resize select-none"
+                  onMouseMove={(e) => {
+                    if (e.buttons === 1 && project.architectureUrl) {
+                      const rect = e.currentTarget.getBoundingClientRect();
+                      const x = e.clientX - rect.left;
+                      const percentage = (x / rect.width) * 100;
+                      setSliderPositions(prev => ({
+                        ...prev,
+                        [project.id]: Math.max(0, Math.min(100, percentage))
+                      }));
+                    }
+                  }}
+                  onMouseDown={(e) => e.preventDefault()}
+                >
+                  <div className="relative w-full h-full">
+                    {project.architectureUrl && (
+                      <div
+                        className="absolute inset-0 overflow-hidden"
+                        style={{
+                          clipPath: `inset(0 0 0 ${sliderPositions[project.id] || 50}%)`
+                        }}
+                      >
+                        <img
+                          src={project.architectureUrl}
+                          alt={`${project.title} Architecture`}
+                          className="absolute inset-0 w-full h-full object-contain bg-white"
+                        />
+                        <div className="absolute top-4 right-4 bg-slate-800/80 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-medium text-white pointer-events-none">
+                          Backend Architecture
+                        </div>
+                      </div>
+                    )}
+                    <div
+                      className="absolute inset-0 overflow-hidden"
+                      style={{
+                        clipPath: `inset(0 ${100 - (sliderPositions[project.id] || 50)}% 0 0)`
+                      }}
+                    >
+                      <img
+                        src={project.imageUrl}
+                        alt={project.title}
+                        className="absolute inset-0 w-full h-full object-contain bg-white"
+                      />
+                      {project.architectureUrl && (
+                        <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-lg text-xs font-medium text-slate-700 pointer-events-none whitespace-nowrap">
+                          Project Preview
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {project.architectureUrl && (
+                    <>
+                      <div
+                        className="absolute top-0 bottom-0 w-1 bg-white shadow-lg z-10 cursor-ew-resize"
+                        style={{
+                          left: `${sliderPositions[project.id] || 50}%`,
+                          transform: 'translateX(-50%)'
+                        }}
+                      >
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full shadow-xl flex items-center justify-center">
+                          <svg className="w-5 h-5 text-slate-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 9l4-4 4 4m0 6l-4 4-4-4" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-lg text-xs font-medium text-slate-700 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
+                        Drag to compare
+                      </div>
+                    </>
+                  )}
                 </div>
                 <div className="p-8 space-y-4">
                   <h3 className="text-2xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
