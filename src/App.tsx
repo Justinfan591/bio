@@ -65,7 +65,6 @@ function App() {
       description: 'CSC258 course project in MIPS Assembly. Implemented gravity, collision detection, capsule preview, score counters, background music, and sound effects.',
       technologies: ['MIPS Assembly', 'Saturn Environment', 'Low-level Programming'],
       imageUrl: '/dr-mario.png',
-      architectureUrl: '/dr-mario-architecture.png',
       githubUrl: '#',
       category: 'systems'
     },
