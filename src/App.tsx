@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Globe, Terminal } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Code2, Database, Terminal } from 'lucide-react';
 
 interface Project {
   id: number;
