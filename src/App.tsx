@@ -318,7 +318,7 @@ function App() {
         </div>
       </section>
 
-      {/* Skills Section */}
+      {/* Technical Skills Section */}
       <section className="bg-gradient-to-br from-slate-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-4 mb-12">
@@ -347,6 +347,52 @@ function App() {
                     <li key={skillIdx} className="flex items-center gap-3 text-slate-700">
                       <div className="w-2 h-2 rounded-full bg-gradient-to-r from-blue-600 to-cyan-600"></div>
                       <span className="font-medium">{skill}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Business Skills Section */}
+      <section className="bg-white py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-12">
+            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900">Product & Business Skills</h2>
+            <p className="text-xl text-slate-600">Driving impact through strategy and execution</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                title: 'Agile & Delivery',
+                skills: ['Agile', 'Scrum', 'Kanban', 'Sprint Planning', 'User Stories', 'SDLC']
+              },
+              {
+                title: 'Product Management',
+                skills: ['Roadmap Planning', 'Stakeholder Management', 'RICE/MoSCoW', 'UX Feedback', 'GTM']
+              },
+              {
+                title: 'Operations & ERP',
+                skills: ['ERP Implementation', 'Supply Chain', 'Procurement', 'BOM', 'KPI Dashboards']
+              },
+              {
+                title: 'Analytics',
+                skills: ['A/B Testing', 'OKRs', 'KPIs', 'Cohort Analysis', 'ROI Analysis']
+              },
+              {
+                title: 'Leadership',
+                skills: ['Cross-functional Collaboration', 'Team Leadership', 'Communication', 'Facilitation']
+              }
+            ].map((category, idx) => (
+              <div key={idx} className="bg-gradient-to-br from-slate-50 to-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border border-slate-100">
+                <h3 className="text-xl font-bold text-slate-900 mb-4">{category.title}</h3>
+                <ul className="space-y-2">
+                  {category.skills.map((skill, skillIdx) => (
+                    <li key={skillIdx} className="flex items-center gap-2 text-slate-700 text-sm">
+                      <div className="w-1.5 h-1.5 rounded-full bg-gradient-to-r from-emerald-600 to-teal-600"></div>
+                      <span>{skill}</span>
                     </li>
                   ))}
                 </ul>
