@@ -24,7 +24,7 @@ function App() {
       description: 'Modernized manufacturing operations with cloud-based ERP system. Built planner proposals backend with heuristic algorithms, React Query UI with SVG FlowCanvas for visual workflows.',
       technologies: ['React Query', 'SVG', 'Node.js', 'PostgreSQL', 'Cloud ERP'],
       imageUrl: '/erp-frontend.png',
-      architectureUrl: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=1200',
+      architectureUrl: 'https://images.pexels.com/photos/163064/play-stone-network-networked-interactive-163064.jpeg?auto=compress&cs=tinysrgb&w=1200',
       githubUrl: '#',
       category: 'ai'
     },
