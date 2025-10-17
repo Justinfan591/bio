@@ -328,16 +328,16 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Frontend',
-                skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js']
+                title: 'Languages & Web',
+                skills: ['Python', 'JavaScript', 'C++', 'Java', 'React', 'REST APIs']
               },
               {
-                title: 'Backend',
-                skills: ['Node.js', 'Python', 'Go', 'PostgreSQL', 'MongoDB']
+                title: 'AI & Data',
+                skills: ['LangChain', 'PyTorch', 'RAG', 'Pandas', 'Azure AI', 'OpenAI API']
               },
               {
-                title: 'DevOps & Tools',
-                skills: ['Docker', 'Kubernetes', 'Git', 'AWS', 'CI/CD']
+                title: 'Cloud & Tools',
+                skills: ['Azure', 'Git', 'SQL', 'CI/CD', 'Agile', 'ERP']
               }
             ].map((category, idx) => (
               <div key={idx} className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-slate-100">
