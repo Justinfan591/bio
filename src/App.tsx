@@ -20,8 +20,8 @@ function App() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'ERP Manufacturing Project',
-      description: 'Modernized manufacturing operations with cloud-based ERP system. Built planner proposals backend with heuristic algorithms, React Query UI with SVG FlowCanvas for visual workflows.',
+      title: 'Manufacturing ERP with AI Agents',
+      description: 'Modernized manufacturing operations with AI-powered agents. Implemented buyer agent for automated procurement and planner agent with heuristic algorithms for production scheduling. Built React Query UI with SVG FlowCanvas for visual workflows.',
       technologies: ['React Query', 'SVG', 'Node.js', 'PostgreSQL', 'Cloud ERP', 'AI Agents'],
       imageUrl: '/erp-frontend.png',
       architectureUrl: '/erp-backend.jpg',
