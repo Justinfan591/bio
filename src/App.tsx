@@ -22,7 +22,7 @@ function App() {
       id: 1,
       title: 'Manufacturing ERP with AI Agents',
       description: 'Modernized manufacturing operations with AI-powered agents. Implemented buyer agent for automated procurement and planner agent with heuristic algorithms for production scheduling. Built React Query UI with SVG FlowCanvas for visual workflows.',
-      technologies: ['React Query', 'SVG', 'Node.js', 'PostgreSQL', 'Cloud ERP', 'AI Agents'],
+      technologies: ['React Query', 'SVG', 'Node.js', 'PostgreSQL', 'Cloud ERP', 'AI Agents', 'LangChain'],
       imageUrl: '/erp-frontend.png',
       architectureUrl: '/erp-backend.jpg',
       githubUrl: '#',
