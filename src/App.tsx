@@ -356,6 +356,50 @@ function App() {
         </div>
       </section>
 
+      {/* Leadership Section */}
+      <section className="bg-gradient-to-br from-blue-50 via-white to-cyan-50 py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-4xl sm:text-5xl font-bold text-slate-900">Leadership</h2>
+            <p className="text-xl text-slate-600">Building communities and empowering teams</p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-100 hover:shadow-3xl transition-shadow duration-300">
+              <div className="grid md:grid-cols-2 gap-8 p-8">
+                <div className="flex items-center justify-center">
+                  <div className="relative">
+                    <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-cyan-600 rounded-2xl blur-xl opacity-20"></div>
+                    <img
+                      src="/UofT project club logo.jpg"
+                      alt="UofT Project Club"
+                      className="relative w-64 h-64 object-cover rounded-2xl shadow-lg"
+                    />
+                  </div>
+                </div>
+                <div className="flex flex-col justify-center space-y-6">
+                  <div>
+                    <h3 className="text-3xl font-bold text-slate-900 mb-2">UofT Project Club</h3>
+                    <p className="text-lg font-semibold text-blue-600 mb-4">Founder</p>
+                    <p className="text-slate-600 leading-relaxed text-lg">
+                      Founded a student organization connecting business and computer science students at the University of Toronto to collaborate on real-world projects. Building a community where interdisciplinary teams develop practical skills and create impactful solutions.
+                    </p>
+                  </div>
+                  <a
+                    href="https://uoftprojects.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold text-lg transition-colors group"
+                  >
+                    Visit uoftprojects.com
+                    <ExternalLink size={20} className="group-hover:translate-x-1 transition-transform" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Business Skills Section */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
