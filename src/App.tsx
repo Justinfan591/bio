@@ -40,7 +40,7 @@ function App() {
     {
       id: 3,
       title: 'RChelpU - Credit Union AI Service',
-      description: 'AI-powered customer service interface for Rotman Credit Union. Integrated Microsoft Copilot bot with Direct Line authentication and secure iframe embedding.',
+      description: 'Winner of Microsoft AI Transformation 2025. AI-powered customer service interface for Rotman Credit Union. Integrated Microsoft Copilot bot with Direct Line authentication and secure iframe embedding.',
       technologies: ['React', 'Microsoft Copilot', 'Direct Line API', 'Azure AI'],
       imageUrl: '/rcu-frontend.png',
       architectureUrl: '/Union AI banking service backend (RChelpU).png',
