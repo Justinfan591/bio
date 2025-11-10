@@ -69,6 +69,17 @@ function App() {
       category: 'systems'
     },
     {
+      id: 6,
+      title: 'TeamFormationSystem',
+      description: 'CSC207 Software Design course project. Built a team formation system demonstrating software best practices and clean architecture. Implemented repository, facade, and singleton design patterns for maintainable and scalable code.',
+      technologies: ['Java', 'Design Patterns', 'Repository Pattern', 'Facade Pattern', 'Singleton', 'Clean Architecture'],
+      imageUrl: '/placeholder-frontend.png',
+      architectureUrl: '/placeholder-architecture.png',
+      liveUrl: 'https://www.youtube.com/watch?v=3rqbjwjfnIc',
+      githubUrl: '#',
+      category: 'systems'
+    },
+    {
       id: 7,
       title: 'CallGuard',
       description: 'NewHacks 2024 winning project for GenAI in Telecom (TELUS challenge). Real-time scam-call detection using AI with scalable pricing model.',
