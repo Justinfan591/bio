@@ -73,7 +73,8 @@ function App() {
       title: 'TeamFormationSystem',
       description: 'CSC207 Software Design course project. Built a team formation system demonstrating software best practices and clean architecture. Implemented repository, facade, and singleton design patterns for maintainable and scalable code.',
       technologies: ['Java', 'Design Patterns', 'Repository Pattern', 'Facade Pattern', 'Singleton', 'Clean Architecture'],
-      imageUrl: '/dr-mario.png',
+      imageUrl: '/teamformation-frontend.svg',
+      architectureUrl: '/teamformation-architecture.svg',
       liveUrl: 'https://www.youtube.com/watch?v=3rqbjwjfnIc',
       githubUrl: '#',
       category: 'systems'
